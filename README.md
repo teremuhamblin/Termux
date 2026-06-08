@@ -1,4 +1,5 @@
-###### README.MD >> markdown 
+###### README.MD >> markdown
+[![CI](https://github.com/teremuhamblin/Termux/actions/workflows/blank.yml/badge.svg)](https://github.com/teremuhamblin/Termux/actions/workflows/blank.yml)
 # ⚡ Termux
 >Version simple
 
