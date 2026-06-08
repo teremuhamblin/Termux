@@ -1,0 +1,28 @@
+# Fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Historique shell
+.bash_history
+.zsh_history
+
+# Environnements Python
+env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Clés / secrets
+*.key
+*.pem
+*.crt
+*.p12
+secrets.*
+config.local.*
+
+# Dossiers Termux
+.cache/
+.termux/tasker/
