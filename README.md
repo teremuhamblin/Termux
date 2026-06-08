@@ -5,6 +5,7 @@
 ### 📁 Structure finale
 ```text
 mon-projet/
+├── LICENSE 
 ├── README.md
 ├── main.sh
 └── .gitignore
