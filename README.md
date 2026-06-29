@@ -6,6 +6,8 @@
 ### 📁 Structure finale
 ```text
 mon-projet/
+├── Docs
+    └── DEPOTS.md
 ├── LICENSE 
 ├── README.md
 ├── main.sh
