@@ -6,7 +6,10 @@
 ### 📁 Structure finale
 ```text
 mon-projet/
-├── Docs
+├── .github/
+    └── workflows/
+        └── greetings.yml
+├── Docs/
     └── DEPOTS.md
 ├── LICENSE 
 ├── README.md
