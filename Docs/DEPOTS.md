@@ -46,8 +46,8 @@ pkg install science-repo
 ---
 
 ⚔️ Hax4us Main Repo (sécurisé)
-⚠️ Ce n’est PAS TermuxBlack.  
-⚠️ C’est le dépôt principal de Hax4us, fiable, utilisé dans les environnements pro.
+- ⚠️ Ce n’est PAS TermuxBlack.  
+- ⚠️ C’est le dépôt principal de Hax4us, fiable, utilisé dans les environnements pro.
 - Permet d’installer :
   - Metasploit stable  
   - Ngrok  
