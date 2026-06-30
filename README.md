@@ -11,6 +11,7 @@ mon-projet/
         └── greetings.yml
 ├── Docs/
     └── DEPOTS.md
+    └── README.md
 ├── LICENSE 
 ├── README.md
 ├── main.sh
