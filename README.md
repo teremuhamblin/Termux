@@ -14,6 +14,8 @@ mon-projet/
     └── README.md
 ├── LICENSE 
 ├── README.md
+├── CHANGELOG.md
+├── ROADMAP.md
 ├── main.sh
 └── .gitignore
 ```
