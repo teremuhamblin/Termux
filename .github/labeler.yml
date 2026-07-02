@@ -1,0 +1,53 @@
+# ============================
+#  LABELER – CONFIG MILITAIRE
+# ============================
+
+bug:
+  - "**/*.sh"
+  - "main.sh"
+  - "Modules/**"
+  - "Plugins/**"
+
+enhancement:
+  - "Core/**"
+  - "Modules/**"
+  - "Plugins/**"
+
+documentation:
+  - "README.md"
+  - "Docs/**"
+  - "**/*.md"
+
+security:
+  - "BlueTeam/**"
+  - "OSINT/**"
+  - "Utils/**"
+
+performance:
+  - "Core/**"
+  - "Utils/**"
+
+installer:
+  - "install.sh"
+  - "setup/**"
+
+config:
+  - "**/*.conf"
+  - "config/**"
+
+logs:
+  - "Logs/**"
+
+tui:
+  - "Interface/**"
+  - "HUD/**"
+
+plugins:
+  - "Plugins/**"
+
+actions:
+  - "Actions/**"
+
+# Workflow GitHub
+needs review:
+  - ".github/workflows/**"
