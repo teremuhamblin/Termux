@@ -1,0 +1,21 @@
+name: Labeler – Auto‑tag militaire
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  labeler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Apply labels based on changed files
+        uses: actions/labeler@v5
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          configuration-path: .github/labeler.yml
+
+      - name: Mission report
+        run: echo "🎖️ Labeler opérationnel – classification automatique effectuée."
