@@ -4,8 +4,6 @@
 #⚡📁 Structure finale
 - — Version Ultime (Termux / LÉGION OSINT)
 
-![CI](https://github.com/teremuhamblin/Termux/actions/workflows/blank.yml)
-
 ###⚡ Termux — LÉGION OSINT
 > Version simple, rapide, militaire, optimisée pour Android & opérations OSINT.
 
