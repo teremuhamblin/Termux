@@ -19,20 +19,24 @@ Il sert de fondation pour des projets OSINT, BlueTeam, DevOps ou scripts tactiqu
 ### 📁 Structure finale du projet
 ```text
 mon-projet/
+├── assets/
+    ├── banners/
+        └── mil-pro.txt
 ├── .github/
-│   └── workflows/
-│       └── greetings.yml
+    └── workflows/
+        └── greetings.yml
 ├── Docs/
 │   ├── DEPOTS.md
 │   ├── CMD-1_25.md
 │   ├── CMD-26_50.md
 │   ├── CMD-others.md
-│   └── README.md
+     └── README.md
 ├── LICENSE 
 ├── README.md
 ├── CHANGELOG.md
 ├── ROADMAP.md
-├── main.sh
+├── src/
+    ├── main.sh
 └── .gitignore
 ```
 
