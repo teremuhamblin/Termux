@@ -1,4 +1,4 @@
-###### Commandes2.md >> markdown
+###### CMD-others.md >> markdown
 
 ```text
 ┌──────────────────────────────────────────┐
@@ -10,7 +10,7 @@
 └──────────────────────────────────────────┘
 ```
 
-- Deuxième pack de commandes essentielles pour un environnement Termux militaire,
+- Packs de commandes essentielles pour un environnement Termux militaire,
 optimisé pour les opérations LTactic, BlueTeam, OSINT et DevOps.
 
 ---
