@@ -1,0 +1,391 @@
+###### Commandes3.md >> markdown
+
+```text
+┌──────────────────────────────────────────┐
+
+│      LTactic / BlueTeam — MIL‑PRO        │
+
+│      Commandes Termux — Section 3        │
+
+└──────────────────────────────────────────┘
+```
+
+- Pack 26 a 50 des commandes essentielles pour un environnement Termux militaire,
+optimisé pour les opérations LTactic, BlueTeam, OSINT et DevOps.
+
+---
+
+🟩 SECTION 0 — Couleurs ANSI (Termux)
+Utilisables dans tous tes scripts :
+
+- Rouge : \e[31m
+- Vert : \e[32m
+- Jaune : \e[33m
+- Bleu : \e[34m
+- Magenta : \e[35m
+- Cyan : \e[36m
+- Reset : \e[0m
+
+Exemple :
+`bash
+echo -e "\e[32m[OK]\e[0m Module chargé."
+`
+
+---
+
+🛡️ SECTION 1 — API & Affichage Markdown
+
+🔧 Termux-API
+Installation :
+`bash
+pkg install -y termux-api
+`
+
+Usage :
+`bash
+termux-battery-status
+termux-wifi-scaninfo
+termux-telephony-deviceinfo
+`
+
+---
+
+🔧 Glow (Markdown viewer)
+Installation :
+`bash
+pkg install -y glow
+`
+
+Usage :
+`bash
+glow README.md
+`
+
+---
+
+🔧 Toilet (ASCII banners)
+Installation :
+`bash
+pkg install -y toilet
+`
+
+Usage :
+`bash
+toilet "LTactic" --metal
+`
+
+---
+
+🛰️ SECTION 2 — Gestion des Sessions
+
+🔧 Screen
+Installation :
+`bash
+pkg install -y screen
+`
+
+Usage :
+`bash
+screen
+screen -ls
+screen -r <id>
+`
+
+---
+
+⚙️ SECTION 3 — Commandes Modernes (ls, cat, find)
+
+🔧 Exa (remplaçant moderne de ls)
+Installation :
+`bash
+pkg install -y exa
+`
+
+Usage :
+`bash
+exa -l
+exa -la
+`
+
+---
+
+🔧 Bat (cat amélioré)
+Installation :
+`bash
+pkg install -y bat
+`
+
+Usage :
+`bash
+bat file.txt
+`
+
+---
+
+🔧 FD (find moderne)
+Installation :
+`bash
+pkg install -y fd
+`
+
+Usage :
+`bash
+fd filename
+`
+
+---
+
+🔧 Ripgrep (grep ultra rapide)
+Installation :
+`bash
+pkg install -y ripgrep
+`
+
+Usage :
+`bash
+rg mot
+`
+
+---
+
+🔧 FZF (fuzzy finder)
+Installation :
+`bash
+pkg install -y fzf
+`
+
+Usage :
+`bash
+fzf
+`
+
+---
+
+📁 SECTION 4 — Grep / Sed / Awk (Text Mastery)
+
+🔧 Grep
+Installation :
+`bash
+pkg install -y grep
+`
+
+Usage :
+`bash
+grep mot file.txt
+`
+
+---
+
+🔧 Sed
+Installation :
+`bash
+pkg install -y sed
+`
+
+Usage :
+`bash
+sed 's/old/new/g' file.txt
+`
+
+---
+
+🔧 Awk
+Installation :
+`bash
+pkg install -y awk
+`
+
+Usage :
+`bash
+awk '{print $1}' file.txt
+`
+
+---
+
+🧮 SECTION 5 — Calcul / Documentation
+
+🔧 BC (calculatrice CLI)
+Installation :
+`bash
+pkg install -y bc
+`
+
+Usage :
+`bash
+echo "5*5" | bc
+`
+
+---
+
+🔧 Man (documentation)
+Installation :
+`bash
+pkg install -y man
+`
+
+Usage :
+`bash
+man ls
+`
+
+---
+
+🛠️ SECTION 6 — Compilation / Build Tools
+
+🔧 Make
+Installation :
+`bash
+pkg install -y make
+`
+
+Usage :
+`bash
+make
+`
+
+---
+
+🔧 CMake
+Installation :
+`bash
+pkg install -y cmake
+`
+
+Usage :
+`bash
+cmake .
+`
+
+---
+
+🔧 Patch
+Installation :
+`bash
+pkg install -y patch
+`
+
+Usage :
+`bash
+patch < file.patch
+`
+
+---
+
+🔧 Tar
+Installation :
+`bash
+pkg install -y tar
+`
+
+Usage :
+`bash
+tar -xvf file.tar
+tar -czvf archive.tar.gz dossier/
+`
+
+---
+
+🌐 SECTION 7 — Réseau & Système
+
+🔧 Inetutils
+Installation :
+`bash
+pkg install -y inetutils
+`
+
+Usage :
+`bash
+ping google.com
+ftp
+telnet
+`
+
+---
+
+🔧 Util-linux
+Installation :
+`bash
+pkg install -y util-linux
+`
+
+Usage :
+`bash
+mount
+umount
+dmesg
+`
+
+---
+
+🔧 Coreutils
+Installation :
+`bash
+pkg install -y coreutils
+`
+
+Usage :
+`bash
+ls
+cp
+mv
+rm
+`
+
+---
+
+🐚 SECTION 8 — Shells (Fish / Zsh / Bash)
+
+🔧 Fish
+Installation :
+`bash
+pkg install -y fish
+`
+
+Usage :
+`bash
+fish
+`
+
+---
+
+🔧 Zsh
+Installation :
+`bash
+pkg install -y zsh
+`
+
+Usage :
+`bash
+zsh
+`
+
+---
+
+🔧 Bash
+Installation :
+`bash
+pkg install -y bash
+`
+
+Usage :
+`bash
+bash script.sh
+`
+
+---
+
+🧩 SECTION 9 — JSON Tools
+
+🔧 JQ
+Installation :
+`bash
+pkg install -y jq
+`
+
+Usage :
+`bash
+jq '.' file.json
+jq '.key' file.json
+`
+
+---
