@@ -24,6 +24,9 @@ mon-projet/
 │       └── greetings.yml
 ├── Docs/
 │   ├── DEPOTS.md
+│   ├── CMD-1_25.md
+│   ├── CMD-26_50.md
+│   ├── CMD-others.md
 │   └── README.md
 ├── LICENSE 
 ├── README.md
