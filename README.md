@@ -16,6 +16,22 @@ Il sert de fondation pour des projets OSINT, BlueTeam, DevOps ou scripts tactiqu
 
 ---
 
+### 📦 Gestion des dépôts Termux
+- Ce projet utilise trois fichiers `.list` pour organiser proprement les sources apt :
+- `**sources.list**` : tous les dépôts fonctionnels (officiels + non officiels)
+- `**official.list**` : uniquement les dépôts officiels validés
+- `**unofficial.list**` : dépôts externes, privés, TUR, expérimentaux
+
+Chaque fichier peut être installé dans
+```text
+`/data/data/com.termux/files/usr/etc/apt/sources.list`
+- ou `/data/data/com.termux/files/usr/etc/apt/sources.list.d/`
+```
+
+⚠️ Attention aux doublons dans `sources.list.d/`.
+
+Après installation : apt uodate
+
 ### 📁 Structure finale du projet
 ```text
 mon-projet/
@@ -34,6 +50,9 @@ mon-projet/
 ├── LICENSE 
 ├── README.md
 ├── CHANGELOG.md
+├── sources.list
+├── official.list
+├── unofficial.list
 ├── ROADMAP.md
 ├── src/
     ├── main.sh
